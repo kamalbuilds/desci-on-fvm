@@ -3,11 +3,11 @@ import { ChakraProvider , ColorModeScript } from '@chakra-ui/react';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import { Box, Flex } from '@chakra-ui/react';
-import { ResearcherProvider } from '../../context/ResearcherContext';
+import { ResearcherProvider } from '../context/ResearcherContext';
 import type { AppProps } from 'next/app';
 import { ThirdwebProvider } from '@thirdweb-dev/react';
 import { BinanceTestnet } from "@thirdweb-dev/chains";
-import theme from "../../theme";
+import theme from "../theme";
 
 function MyApp({ Component, pageProps }: AppProps) {
 
